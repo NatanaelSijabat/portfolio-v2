@@ -1,0 +1,17 @@
+# Normalise text files to LF in the repository.
+* text=auto eol=lf
+
+# Generated binaries must never be line-ending converted: this repo's resume PDF is
+# produced by our own writer and its cross-reference table stores byte offsets, so a
+# CRLF round-trip through the index would corrupt the file ("Couldn't read xref table").
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+
+# Keep generated PDFs out of diffs and language stats.
+public/resume.pdf -diff -text

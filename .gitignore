@@ -1,0 +1,34 @@
+# dependencies
+/node_modules
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# local environment files (never commit real values)
+.env
+.env.local
+.env*.local
+
+# tooling caches and scratch space used inside this sandbox
+/.scratch/
+/.bun-cache/
+
+# husky's generated shims (husky writes its own .gitignore here on install)
+/.husky/_/
+
+.DS_Store
+*.pem
+
+# debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts

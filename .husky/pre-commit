@@ -1,0 +1,6 @@
+# Fast gates. Anything that breaks the build, the content rules, or the generated
+# assets should fail here rather than in review.
+npm run lint
+npm run typecheck
+npm run verify:content
+npm run verify:assets

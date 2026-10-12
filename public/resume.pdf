@@ -1,0 +1,177 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 5 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 7 0 R /F2 8 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 7445 >>
+stream
+BT 0.09 0.09 0.1 rg /F2 22 Tf 1 0 0 1 54.00 787.89 Tm (Natanael Sijabat) Tj ET
+BT 0.7 0.25 0.05 rg /F1 11 Tf 1 0 0 1 54.00 767.89 Tm (Fullstack Engineer) Tj ET
+BT 0.48 0.5 0.52 rg /F1 8.8 Tf 1 0 0 1 54.00 752.89 Tm (Semarang, Indonesia  |  github.com/NatanaelSijabat) Tj ET
+0.86 0.85 0.83 RG 0.7 w 54 740.89 m 541.28 740.89 l S
+BT 0.48 0.5 0.52 rg /F2 8 Tf 1.1 Tc 1 0 0 1 54.00 712.89 Tm (PROFILE) Tj ET
+0.86 0.85 0.83 RG 0.7 w 54 704.89 m 541.28 704.89 l S
+BT 0.36 0.38 0.4 rg /F1 9.5 Tf 1 0 0 1 54.00 692.89 Tm (Fullstack engineer with professional software development experience since 2022 across frontend) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.5 Tf 1 0 0 1 54.00 679.89 Tm (and fullstack roles. Builds business-oriented web applications, backend APIs, payment and delivery) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.5 Tf 1 0 0 1 54.00 666.89 Tm (integrations, operational dashboards, and mobile-connected services. Works with React, Next.js,) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.5 Tf 1 0 0 1 54.00 653.89 Tm (TypeScript, Node.js, Hono, NestJS, and relational and document databases.) Tj ET
+BT 0.48 0.5 0.52 rg /F2 8 Tf 1.1 Tc 1 0 0 1 54.00 624.89 Tm (CORE SKILLS) Tj ET
+0.86 0.85 0.83 RG 0.7 w 54 616.89 m 541.28 616.89 l S
+BT 0.09 0.09 0.1 rg /F2 9.5 Tf 1 0 0 1 54.00 604.89 Tm (Frontend Engineering:) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 54.00 592.39 Tm (React, Next.js, TypeScript, JavaScript, Vue.js, Nuxt.js, Tailwind CSS, TanStack Query, TanStack Table,) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 54.00 579.99 Tm (Zustand, Redux Toolkit, React Hook Form, Zod, Vite, Capacitor) Tj ET
+BT 0.09 0.09 0.1 rg /F2 9.5 Tf 1 0 0 1 54.00 563.59 Tm (Backend & API Development:) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 54.00 551.09 Tm (Node.js, Hono, Bun, Express.js, NestJS, PHP, Laravel, REST APIs, Authentication & RBAC,) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 54.00 538.69 Tm (Idempotency, Rate limiting, Background workers, OpenAPI documentation) Tj ET
+BT 0.09 0.09 0.1 rg /F2 9.5 Tf 1 0 0 1 54.00 522.29 Tm (Databases & Data Modelling:) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 54.00 509.79 Tm (MySQL, PostgreSQL, MongoDB, Prisma ORM, Sequelize, Redis, Schema design, Migrations, Query) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 54.00 497.39 Tm (optimisation, Indexing, Caching) Tj ET
+BT 0.09 0.09 0.1 rg /F2 9.5 Tf 1 0 0 1 54.00 480.99 Tm (Integrations & Business Workflows:) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 54.00 468.49 Tm (Payment gateway integration, Cooperative savings workflows, Delivery rate services, Multi-tenant) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 54.00 456.09 Tm (authorization, Order and payment state consistency, Third-party API integration, SEO and Open Graph) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 54.00 443.69 Tm (metadata) Tj ET
+BT 0.09 0.09 0.1 rg /F2 9.5 Tf 1 0 0 1 54.00 427.29 Tm (DevOps & Developer Tooling:) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 54.00 414.79 Tm (Docker, Docker Compose, GitHub Actions, Nginx, Linux VPS, SSL / Certbot, Cloudflare DNS, Cloudflare) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 54.00 402.39 Tm (R2 & CDN, cPanel, Git, Postman, Browser developer tools) Tj ET
+BT 0.48 0.5 0.52 rg /F2 8 Tf 1.1 Tc 1 0 0 1 54.00 373.99 Tm (PROFESSIONAL EXPERIENCE) Tj ET
+0.86 0.85 0.83 RG 0.7 w 54 365.99 m 541.28 365.99 l S
+BT 0.09 0.09 0.1 rg /F2 10.5 Tf 1 0 0 1 54.00 353.99 Tm (Senior Full-Stack Developer - KSP Nasari) Tj ET
+BT 0.48 0.5 0.52 rg /F1 8.6 Tf 1 0 0 1 54.00 341.49 Tm (Apr 2026 - Sep 2026  |  Full-time  |  Collab Coop / KDKMP digital ecosystem) Tj ET
+BT 0.7 0.25 0.05 rg /F1 9.2 Tf 1 0 0 1 54.00 328.99 Tm (-) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 66.00 328.99 Tm (Worked across the Collab Coop / KDKMP digital ecosystem, spanning merchant management,) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 66.00 317.09 Tm (marketplace, cooperative payments, courier services, and ride-hailing.) Tj ET
+BT 0.7 0.25 0.05 rg /F1 9.2 Tf 1 0 0 1 54.00 305.19 Tm (-) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 66.00 305.19 Tm (Built backend services with Hono, TypeScript, Bun, Prisma, MongoDB, and Redis, keeping routes,) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 66.00 293.29 Tm (services, schemas, and domain features separated as the system grew.) Tj ET
+BT 0.7 0.25 0.05 rg /F1 9.2 Tf 1 0 0 1 54.00 281.39 Tm (-) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 66.00 281.39 Tm (Implemented payment workflows with transaction validation, idempotency, payment status handling,) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 66.00 269.49 Tm (and order consistency across retried or duplicated requests.) Tj ET
+BT 0.7 0.25 0.05 rg /F1 9.2 Tf 1 0 0 1 54.00 257.59 Tm (-) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 66.00 257.59 Tm (Delivered the ride-hailing flow end to end: quotation, booking, order creation, driver search and) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 66.00 245.69 Tm (assignment, live tracking, trip completion, ratings, history, and cancellation.) Tj ET
+BT 0.7 0.25 0.05 rg /F1 9.2 Tf 1 0 0 1 54.00 233.79 Tm (-) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 66.00 233.79 Tm (Implemented courier and delivery workflows and multi-tenant authorization connecting users,) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 66.00 221.89 Tm (branches, cooperative entities, merchants, and stores through role-based access control.) Tj ET
+BT 0.7 0.25 0.05 rg /F1 9.2 Tf 1 0 0 1 54.00 209.99 Tm (-) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 66.00 209.99 Tm (Built merchant self-service tools for store information and product management.) Tj ET
+BT 0.7 0.25 0.05 rg /F1 9.2 Tf 1 0 0 1 54.00 198.09 Tm (-) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 66.00 198.09 Tm (Built the companion mobile application with React, Vite, Capacitor, TanStack Query, Zustand, React) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 66.00 186.19 Tm (Hook Form, Zod, and Tailwind CSS, translating Figma flows into production interfaces.) Tj ET
+BT 0.7 0.25 0.05 rg /F1 9.2 Tf 1 0 0 1 54.00 174.29 Tm (-) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 66.00 174.29 Tm (Improved database and API performance through caching, validation, and safe data-mutation patterns;) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 66.00 162.39 Tm (maintained OpenAPI documentation, tests, linting, and deployment checks.) Tj ET
+BT 0.09 0.09 0.1 rg /F2 10.5 Tf 1 0 0 1 54.00 145.49 Tm (Full-Stack Developer & DevOps - HimaPersis) Tj ET
+BT 0.48 0.5 0.52 rg /F1 8.6 Tf 1 0 0 1 54.00 132.99 Tm (Mar 2026  |  Freelance  |  HimaPersis v2 - public website and dashboard) Tj ET
+BT 0.7 0.25 0.05 rg /F1 9.2 Tf 1 0 0 1 54.00 120.49 Tm (-) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 66.00 120.49 Tm (Built the public website and member dashboard with Next.js 15, React 19, TypeScript, Tailwind CSS,) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 66.00 108.59 Tm (NextAuth, TanStack Query, React Hook Form, and Zod.) Tj ET
+BT 0.7 0.25 0.05 rg /F1 9.2 Tf 1 0 0 1 54.00 96.69 Tm (-) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 66.00 96.69 Tm (Developed Hono/Bun/Prisma/MySQL backend modules for authentication, member and cadre records,) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 66.00 84.79 Tm (territorial data, content management, and dashboard analytics.) Tj ET
+BT 0.7 0.25 0.05 rg /F1 9.2 Tf 1 0 0 1 54.00 72.89 Tm (-) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 66.00 72.89 Tm (Implemented a Cloudflare R2/CDN media pipeline with Sharp processing, background workers, and) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 7 0 R /F2 8 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 7013 >>
+stream
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 66.00 787.89 Tm (generation of PDF, image, and Open Graph assets.) Tj ET
+BT 0.7 0.25 0.05 rg /F1 9.2 Tf 1 0 0 1 54.00 775.99 Tm (-) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 66.00 775.99 Tm (Configured Docker Compose, an Nginx reverse proxy, SSL with Certbot, Cloudflare DNS, separate) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 66.00 764.09 Tm (staging and production environments, and GitHub Actions deployments.) Tj ET
+BT 0.7 0.25 0.05 rg /F1 9.2 Tf 1 0 0 1 54.00 752.19 Tm (-) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 66.00 752.19 Tm (Implemented authentication and role-based access control across public pages, dashboard routes,) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 66.00 740.29 Tm (and protected API endpoints.) Tj ET
+BT 0.09 0.09 0.1 rg /F2 10.5 Tf 1 0 0 1 54.00 723.39 Tm (Frontend Developer - PT Ganesha Operation) Tj ET
+BT 0.48 0.5 0.52 rg /F1 8.6 Tf 1 0 0 1 54.00 710.89 Tm (Nov 2023 - Dec 2024  |  Full-time  |  Web application platform) Tj ET
+BT 0.7 0.25 0.05 rg /F1 9.2 Tf 1 0 0 1 54.00 698.39 Tm (-) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 66.00 698.39 Tm (Built and maintained scalable web applications in Next.js, turning UI/UX mockups into responsive,) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 66.00 686.49 Tm (dynamic interfaces.) Tj ET
+BT 0.7 0.25 0.05 rg /F1 9.2 Tf 1 0 0 1 54.00 674.59 Tm (-) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 66.00 674.59 Tm (Designed the API consumption flows and worked with backend, QA, and product teams to deliver) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 66.00 662.69 Tm (features on schedule.) Tj ET
+BT 0.7 0.25 0.05 rg /F1 9.2 Tf 1 0 0 1 54.00 650.79 Tm (-) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 66.00 650.79 Tm (Improved rendering and data-fetching performance through component-level refactoring and) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 66.00 638.89 Tm (client-side state management.) Tj ET
+BT 0.7 0.25 0.05 rg /F1 9.2 Tf 1 0 0 1 54.00 626.99 Tm (-) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 66.00 626.99 Tm (Took part in sprint planning, code reviews, and release validation to keep delivery quality consistent.) Tj ET
+BT 0.09 0.09 0.1 rg /F2 10.5 Tf 1 0 0 1 54.00 610.09 Tm (Frontend Developer - DuiToken) Tj ET
+BT 0.48 0.5 0.52 rg /F1 8.6 Tf 1 0 0 1 54.00 597.59 Tm (Oct 2023  |  Freelance  |  Real-time cryptocurrency exchange dashboard) Tj ET
+BT 0.7 0.25 0.05 rg /F1 9.2 Tf 1 0 0 1 54.00 585.09 Tm (-) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 66.00 585.09 Tm (Built a real-time cryptocurrency exchange dashboard in React, integrating Server-Sent Events for live) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 66.00 573.19 Tm (price and metric streaming.) Tj ET
+BT 0.7 0.25 0.05 rg /F1 9.2 Tf 1 0 0 1 54.00 561.29 Tm (-) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 66.00 561.29 Tm (Developed reusable chart and analytics components that consume live market data with consistent) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 66.00 549.39 Tm (formatting and loading states.) Tj ET
+BT 0.7 0.25 0.05 rg /F1 9.2 Tf 1 0 0 1 54.00 537.49 Tm (-) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 66.00 537.49 Tm (Handled streaming edge cases such as reconnects, delayed updates, and empty states so dashboard) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 66.00 525.59 Tm (data stayed accurate.) Tj ET
+BT 0.7 0.25 0.05 rg /F1 9.2 Tf 1 0 0 1 54.00 513.69 Tm (-) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 66.00 513.69 Tm (Improved frontend performance through state management and code optimisation on the responsive) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 66.00 501.79 Tm (analytics layouts.) Tj ET
+BT 0.09 0.09 0.1 rg /F2 10.5 Tf 1 0 0 1 54.00 484.89 Tm (Full-Stack Developer - HimaPersis) Tj ET
+BT 0.48 0.5 0.52 rg /F1 8.6 Tf 1 0 0 1 54.00 472.39 Tm (May 2023  |  Freelance  |  HimaPersis v1 - website and API) Tj ET
+BT 0.7 0.25 0.05 rg /F1 9.2 Tf 1 0 0 1 54.00 459.89 Tm (-) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 66.00 459.89 Tm (Designed the MySQL database schema for operational workflows and content management.) Tj ET
+BT 0.7 0.25 0.05 rg /F1 9.2 Tf 1 0 0 1 54.00 447.99 Tm (-) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 66.00 447.99 Tm (Built RESTful APIs with NestJS and the public web application with Next.js.) Tj ET
+BT 0.7 0.25 0.05 rg /F1 9.2 Tf 1 0 0 1 54.00 436.09 Tm (-) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 66.00 436.09 Tm (Implemented authentication and role-based access for administrative content and data management.) Tj ET
+BT 0.7 0.25 0.05 rg /F1 9.2 Tf 1 0 0 1 54.00 424.19 Tm (-) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 66.00 424.19 Tm (Maintained API documentation, validated endpoints with Postman before each release, and managed) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 66.00 412.29 Tm (deployment on cPanel hosting.) Tj ET
+BT 0.09 0.09 0.1 rg /F2 10.5 Tf 1 0 0 1 54.00 395.39 Tm (Full-Stack Developer - Pelabuhan Kepri) Tj ET
+BT 0.48 0.5 0.52 rg /F1 8.6 Tf 1 0 0 1 54.00 382.89 Tm (Jun 2022 - Jul 2022  |  Freelance  |  Company profile website and API) Tj ET
+BT 0.7 0.25 0.05 rg /F1 9.2 Tf 1 0 0 1 54.00 370.39 Tm (-) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 66.00 370.39 Tm (Designed and optimised the MySQL database architecture so content processing stayed efficient.) Tj ET
+BT 0.7 0.25 0.05 rg /F1 9.2 Tf 1 0 0 1 54.00 358.49 Tm (-) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 66.00 358.49 Tm (Built RESTful APIs with Express.js and a responsive company profile website with React.) Tj ET
+BT 0.7 0.25 0.05 rg /F1 9.2 Tf 1 0 0 1 54.00 346.59 Tm (-) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 66.00 346.59 Tm (Normalised relational tables and added indexes to keep queries fast as content volume grew.) Tj ET
+BT 0.7 0.25 0.05 rg /F1 9.2 Tf 1 0 0 1 54.00 334.69 Tm (-) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 66.00 334.69 Tm (Deployed the full application to cPanel with production configuration and verified cross-browser) Tj ET
+BT 0.36 0.38 0.4 rg /F1 9.2 Tf 1 0 0 1 66.00 322.79 Tm (responsiveness.) Tj ET
+BT 0.48 0.5 0.52 rg /F2 8 Tf 1.1 Tc 1 0 0 1 54.00 295.89 Tm (EDUCATION) Tj ET
+0.86 0.85 0.83 RG 0.7 w 54 287.89 m 541.28 287.89 l S
+BT 0.09 0.09 0.1 rg /F2 10 Tf 1 0 0 1 54.00 275.89 Tm (Bachelor of Informatics Engineering - Universitas Maritim Raja Ali Haji) Tj ET
+BT 0.48 0.5 0.52 rg /F1 8.6 Tf 1 0 0 1 54.00 262.89 Tm (2015 - 2022) Tj ET
+BT 0.48 0.5 0.52 rg /F2 8 Tf 1.1 Tc 1 0 0 1 54.00 234.89 Tm (CERTIFICATIONS) Tj ET
+0.86 0.85 0.83 RG 0.7 w 54 226.89 m 541.28 226.89 l S
+BT 0.09 0.09 0.1 rg /F2 9.6 Tf 1 0 0 1 54.00 214.89 Tm (IBM Bob Hackathon - Certificate of Completion) Tj ET
+BT 0.48 0.5 0.52 rg /F1 8.8 Tf 1 0 0 1 54.00 201.89 Tm (lablab.ai | Participant | Awarded 12 June 2026 | ID CMQAZMHIA033DS601GX9TOM3A) Tj ET
+BT 0.09 0.09 0.1 rg /F2 9.6 Tf 1 0 0 1 54.00 182.89 Tm (AMD Developer Hackathon - Certificate of Completion) Tj ET
+BT 0.48 0.5 0.52 rg /F1 8.8 Tf 1 0 0 1 54.00 169.89 Tm (lablab.ai | Participant | Awarded 17 June 2026 | ID CMQHZY1SG02RTS601YYXBIR01) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+8 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000127 00000 n 
+0000000269 00000 n 
+0000007766 00000 n 
+0000007908 00000 n 
+0000014973 00000 n 
+0000015070 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+15172
+%%EOF

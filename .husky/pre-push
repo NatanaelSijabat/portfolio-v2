@@ -1,0 +1,2 @@
+# Full suite, including the SSR pass that renders every route on a real server.
+npm run verify
