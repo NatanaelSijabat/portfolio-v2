@@ -6,13 +6,11 @@ import { formatYear } from "@/lib/utils";
 export function SiteFooter() {
   return (
     <footer className="mt-24 border-t border-line">
-      <div className="mx-auto flex w-full max-w-6xl flex-col gap-8 px-5 py-12 sm:px-8 md:flex-row md:items-start md:justify-between">
+      <div className="mx-auto flex w-full max-w-5xl flex-col gap-8 px-5 py-12 sm:px-8 md:flex-row md:items-start md:justify-between">
         <div>
-          <p className="text-sm font-semibold tracking-tight text-ink">{siteConfig.name}</p>
+          <p className="font-display text-[1.0625rem] tracking-tight text-ink">{siteConfig.name}</p>
           <p className="mt-1 text-sm text-muted">{siteConfig.title}</p>
-          <p className="mt-4 max-w-sm text-sm leading-6 text-subtle">
-            {siteConfig.location}
-          </p>
+          <p className="mt-4 max-w-sm text-sm leading-6 text-subtle">{siteConfig.location}</p>
         </div>
 
         <nav aria-label="Footer">
@@ -48,9 +46,9 @@ export function SiteFooter() {
       </div>
 
       <div className="border-t border-line">
-        <div className="mx-auto w-full max-w-6xl px-5 py-6 sm:px-8">
+        <div className="mx-auto w-full max-w-5xl px-5 py-6 sm:px-8">
           <p className="font-mono text-[0.6875rem] text-subtle">
-            © {formatYear()} {siteConfig.name}. All rights reserved.
+            © {formatYear()} {siteConfig.name} · {siteConfig.location}
           </p>
         </div>
       </div>

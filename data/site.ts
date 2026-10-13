@@ -11,9 +11,7 @@ export const siteConfig = {
   name: "Natanael Sijabat",
   title: "Fullstack Engineer",
   eyebrow: "FULLSTACK ENGINEER · SOFTWARE DEVELOPER",
-  headline: "Building reliable software, from interface to infrastructure.",
-  supporting:
-    "I build web applications and backend systems that solve real business problems, combining modern frontend experiences with reliable APIs, data-driven architecture, and production-focused engineering.",
+  headline: "I build web applications and the systems behind them.",
   description:
     "Fullstack engineer in Semarang, Indonesia. I build web applications, backend APIs, integrations, and business-oriented software systems — with case studies covering cooperative commerce, payment and delivery workflows, and production operations.",
   location: "Semarang, Indonesia",
@@ -27,11 +25,26 @@ export const siteConfig = {
 } as const;
 
 export const navItems = [
-  { label: "About", href: "/#about" },
+  { label: "About", href: "/about" },
   { label: "Projects", href: "/projects" },
   { label: "Experience", href: "/#experience" },
   { label: "Contact", href: "/#contact" },
 ] as const;
+
+/** Short form of what he works on, used on the homepage instead of a wall of skill chips. */
+export const workAreas = [
+  { area: "Frontend", detail: "React, Next.js, TypeScript, Tailwind CSS, TanStack Query" },
+  {
+    area: "Backend & APIs",
+    detail: "Node.js, Hono, NestJS, Express, REST APIs, authentication and RBAC",
+  },
+  { area: "Data", detail: "PostgreSQL, MySQL, MongoDB, Prisma, Redis" },
+  {
+    area: "Integrations",
+    detail: "Payment gateways, delivery services, third-party APIs, order and payment state",
+  },
+  { area: "Deployment", detail: "Docker, Nginx, GitHub Actions, Cloudflare, Linux VPS" },
+];
 
 export const aboutIntro = [
   "I am a fullstack engineer based in Semarang, Indonesia, and my work sits between business requirements and production systems. That has meant cooperative and commerce platforms, operational dashboards, payment and delivery integrations, and the APIs behind all of them.",

@@ -35,10 +35,13 @@ export type Project = {
   name: string;
   category: ProjectCategory;
   summary: string;
+  /** One sentence on the part of this project that was actually interesting to solve. */
+  highlight: string;
   problem: string;
   role: string;
   stack: string[];
   period: string;
+  year: string;
   organisation: string;
   confidential: boolean;
   featured: boolean;

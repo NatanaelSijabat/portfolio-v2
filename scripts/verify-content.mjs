@@ -55,6 +55,11 @@ for (const project of projects) {
   check(project.caseStudy.outcome.length >= 1, `${project.slug}: needs at least one outcome`);
   check(project.caseStudy.disclosure.length > 40, `${project.slug}: disclosure note is too short`);
   check(project.stack.length > 0, `${project.slug}: technology stack is empty`);
+  check(
+    project.highlight.length > 40,
+    `${project.slug}: the "interesting part" line is missing or too short`,
+  );
+  check(/^\d{4}$/.test(project.year), `${project.slug}: year must be a four-digit string`);
 
   for (const layer of [
     project.caseStudy.architecture.client,

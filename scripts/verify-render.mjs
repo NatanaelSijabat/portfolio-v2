@@ -58,12 +58,30 @@ async function fetchHtml(route) {
 }
 
 const routes = [
-  { route: "/", expectStatus: 200, markers: [siteConfig.headline, "Explore Projects", "View Resume"] },
-  { route: "/projects", expectStatus: 200, markers: ["Projects and the decisions behind them."] },
+  {
+    route: "/",
+    expectStatus: 200,
+    markers: [siteConfig.headline, "What I work on", "Selected work", "Experience", "Say hello"],
+  },
+  {
+    route: "/projects",
+    expectStatus: 200,
+    markers: ["Five projects, and the parts worth explaining.", "Interesting part"],
+  },
+  {
+    route: "/about",
+    expectStatus: 200,
+    markers: ["The longer version.", "How I work", "How I decide", "Background"],
+  },
   ...projects.map((project) => ({
     route: `/projects/${project.slug}`,
     expectStatus: 200,
-    markers: [project.name, "Engineering decisions", project.caseStudy.disclosure.slice(0, 40)],
+    markers: [
+      project.name,
+      project.highlight,
+      "Engineering decisions",
+      project.caseStudy.disclosure.slice(0, 40),
+    ],
   })),
   { route: "/sitemap.xml", expectStatus: 200, markers: ["/projects/"] },
   { route: "/robots.txt", expectStatus: 200, markers: ["Sitemap:"] },

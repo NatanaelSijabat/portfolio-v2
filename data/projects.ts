@@ -7,10 +7,13 @@ export const projects: Project[] = [
     category: "Business Systems",
     organisation: "KSP Nasari",
     period: "Apr 2026 – Sep 2026",
+    year: "2026",
     confidential: true,
     featured: true,
     summary:
       "A multi-tenant platform covering merchant management, marketplace, cooperative payments, courier services, and member-facing applications.",
+    highlight:
+      "Making a retried payment resolve to the same order, instead of quietly creating a second one.",
     problem:
       "Merchants, stores, branches, payments, delivery, and members all refer to the same entities, so every workflow has to agree on identifiers, permissions, and transaction state. The hard part is not building a screen — it is keeping one operationally consistent system while several feature areas evolve at once.",
     role: "Senior Full-Stack Developer. I worked across backend services, payment and delivery integrations, merchant self-service, and the companion mobile application.",
@@ -153,10 +156,13 @@ export const projects: Project[] = [
     category: "Integrated Systems",
     organisation: "KSP Nasari",
     period: "Apr 2026 – Sep 2026",
+    year: "2026",
     confidential: true,
     featured: false,
     summary:
       "End-to-end ride flows: quotation, booking, driver search and assignment, live tracking, trip completion, ratings, and cancellation.",
+    highlight:
+      "Two riders can be matched to the same driver at the same moment, and exactly one of them has to win.",
     problem:
       "A single ride request touches pricing, matching, live location, order state, and payment. Any of those steps can fail, stall, or repeat, and the rider, the driver, and the operations team all need the same answer about what happened.",
     role: "Full-Stack Developer. I implemented the ride workflows in the ecosystem backend and connected them to the mobile client.",
@@ -271,10 +277,13 @@ export const projects: Project[] = [
     category: "Web Platform",
     organisation: "HimaPersis (freelance)",
     period: "Mar 2026",
+    year: "2026",
     confidential: false,
     featured: true,
     summary:
       "A public website, member dashboard, and content backend with an image and document pipeline running on Cloudflare R2 and a containerised deployment.",
+    highlight:
+      "Keeping uploads off the request path, so a large file never occupies an application worker.",
     problem:
       "A membership organisation needed one place for public information, member and cadre records, territorial data, and editorial content — while non-technical staff needed to publish safely, and the public side had to stay fast on modest hosting.",
     role: "Freelance full-stack developer and DevOps. I built the public site, the dashboard, the backend modules, the media pipeline, and the deployment setup.",
@@ -397,10 +406,13 @@ export const projects: Project[] = [
     category: "Engineering Foundation",
     organisation: "Personal project",
     period: "2026",
+    year: "2026",
     confidential: false,
     featured: true,
     summary:
       "A production-oriented point-of-sale foundation: Hono and TypeScript on Bun, PostgreSQL via Prisma, and Redis, built around ledger-based inventory and idempotent checkout.",
+    highlight:
+      "Inventory as a ledger of movements rather than a number on a row, so every stock change can be explained later.",
     problem:
       "Point-of-sale systems fail in expensive ways: double-charged orders, oversold stock, and inventory numbers that drift away from what is physically on the shelf. Those failures are data-model problems long before they are interface problems.",
     role: "Personal project. I designed and built the data model, the API, and the invariants that the rest of the system depends on.",
@@ -523,10 +535,13 @@ export const projects: Project[] = [
     category: "Frontend Engineering",
     organisation: "DuiToken (freelance)",
     period: "Oct 2023",
+    year: "2023",
     confidential: false,
     featured: false,
     summary:
       "A React dashboard that streams live cryptocurrency prices and metrics using Server-Sent Events, with analytics components built for continuous updates.",
+    highlight:
+      "Treating a dropped stream as normal, so stale prices are marked stale instead of displayed as current.",
     problem:
       "Exchange dashboards live or die on data freshness. Streaming updates arrive continuously, occasionally out of order or after a reconnect, and the interface still has to stay accurate and readable without overloading the browser.",
     role: "Freelance frontend developer. I built the dashboard components and the streaming data layer.",

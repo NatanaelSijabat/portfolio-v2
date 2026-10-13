@@ -4,6 +4,25 @@ Personal portfolio and engineering case-study site for Natanael Sijabat, Fullsta
 Built with Next.js (App Router), TypeScript, and Tailwind CSS v4. Every content route is
 statically prerendered; there is no database, CMS, or authentication layer.
 
+## Information architecture
+
+The homepage is deliberately short. It carries the introduction, a compact "what I work on"
+list, three selected projects, a one-line-per-role experience list, and the contact links —
+and nothing else, so it reads as a page rather than a scrolling sales deck. Everything with
+more depth lives one click away:
+
+| Route | Holds |
+| --- | --- |
+| `/` | Introduction, work areas, three selected projects, compact experience, contact. |
+| `/projects/<slug>` | The full case study: problem, role, solution, architecture, challenges, decisions, outcome, stack, links. |
+| `/projects` | All five projects as an index, with the same "interesting part" framing. |
+| `/about` | The longer version: approach, every role with its responsibilities, the full tool list, working principles, and background. |
+
+Projects are presented as rows of an index — year, name, what it was, the part that was
+interesting to solve, and the stack — rather than as cards. Each project carries a
+`highlight` field in `data/projects.ts`; that single sentence is what makes the list worth
+reading, and it appears on the homepage, the projects index, and the case study itself.
+
 ## Getting started
 
 ```bash

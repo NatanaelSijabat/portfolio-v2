@@ -77,10 +77,6 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning className="h-full antialiased">
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
-        {/* Scroll-reveal relies on scripting. Keep every section visible if it is unavailable. */}
-        <noscript>
-          <style>{`.reveal{opacity:1 !important;transform:none !important}`}</style>
-        </noscript>
       </head>
       <body className="flex min-h-full flex-col bg-canvas">
         <a

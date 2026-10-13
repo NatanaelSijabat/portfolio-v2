@@ -1,6 +1,6 @@
 "use client";
 
-import { Menu, X } from "lucide-react";
+import { ArrowRight, Menu, X } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 
 import { navItems, siteConfig } from "@/data/site";
@@ -110,9 +110,10 @@ export function MobileNav() {
               <a
                 href={siteConfig.resumePath}
                 onClick={() => setOpen(false)}
-                className="mt-5 inline-flex h-11 items-center justify-center rounded-full bg-accent px-5 text-sm font-medium text-accent-ink"
+                className="flex items-center justify-between border-b border-line py-3 text-lg font-medium text-accent"
               >
-                View Resume
+                Resume
+                <ArrowRight aria-hidden="true" className="size-4" />
               </a>
             </nav>
           </div>

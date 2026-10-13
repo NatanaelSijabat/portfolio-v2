@@ -5,7 +5,6 @@ import { notFound } from "next/navigation";
 
 import { ArchitectureDiagram } from "@/components/architecture-diagram";
 import { Section } from "@/components/section";
-import { Badge } from "@/components/ui/badge";
 import { ButtonLink } from "@/components/ui/button";
 import { TechList } from "@/components/ui/tech-list";
 import { getProject, projects } from "@/data/projects";
@@ -88,18 +87,22 @@ export function CaseStudyView({ slug }: { slug: string }) {
           All projects
         </Link>
 
-        <div className="mt-8 flex flex-wrap items-center gap-3">
-          <Badge tone="accent">{project.category}</Badge>
-          {project.confidential ? <Badge>Sanitised client work</Badge> : null}
-        </div>
+        <p className="mt-8 font-mono text-[0.6875rem] uppercase tracking-[0.15em] text-subtle">
+          {project.category} · {project.year}
+          {project.confidential ? " · sanitised client work" : ""}
+        </p>
 
-        <h1 className="mt-6 max-w-3xl text-3xl font-semibold leading-tight tracking-tight text-ink sm:text-[2.75rem]">
+        <h1 className="mt-4 max-w-3xl text-[1.95rem] font-normal leading-[1.16] tracking-tight text-ink sm:text-[2.5rem] sm:leading-[1.12]">
           {project.name}
         </h1>
         <p className="mt-4 font-mono text-xs text-subtle">
           {project.organisation} · {project.period}
         </p>
-        <p className="mt-6 max-w-3xl text-lg leading-8 text-muted">{project.summary}</p>
+        <p className="mt-6 max-w-3xl text-[1.0625rem] leading-8 text-ink">{project.summary}</p>
+        <p className="mt-5 max-w-3xl text-[0.9375rem] leading-7 text-muted">
+          <span className="label mr-2 text-accent">Interesting part</span>
+          {project.highlight}
+        </p>
       </Section>
 
       <div className="border-t border-line">
@@ -125,22 +128,34 @@ export function CaseStudyView({ slug }: { slug: string }) {
 
           <div className="space-y-14">
             <section id="overview">
-              <h2 className="label text-subtle">01 — Overview</h2>
+              <h2 className="border-t border-line pt-4 text-[1.15rem] font-normal tracking-tight text-ink">
+                <span className="mr-3 font-mono text-[0.6875rem] tabular-nums text-accent">01</span>
+                Overview
+              </h2>
               <p className="mt-4 text-base leading-8 text-muted">{caseStudy.overview}</p>
             </section>
 
             <section id="problem">
-              <h2 className="label text-subtle">02 — Problem</h2>
+              <h2 className="border-t border-line pt-4 text-[1.15rem] font-normal tracking-tight text-ink">
+                <span className="mr-3 font-mono text-[0.6875rem] tabular-nums text-accent">02</span>
+                Problem
+              </h2>
               <p className="mt-4 text-base leading-8 text-muted">{caseStudy.problem}</p>
             </section>
 
             <section id="role">
-              <h2 className="label text-subtle">03 — My role</h2>
+              <h2 className="border-t border-line pt-4 text-[1.15rem] font-normal tracking-tight text-ink">
+                <span className="mr-3 font-mono text-[0.6875rem] tabular-nums text-accent">03</span>
+                My role
+              </h2>
               <p className="mt-4 text-base leading-8 text-muted">{caseStudy.role}</p>
             </section>
 
             <section id="solution">
-              <h2 className="label text-subtle">04 — Solution</h2>
+              <h2 className="border-t border-line pt-4 text-[1.15rem] font-normal tracking-tight text-ink">
+                <span className="mr-3 font-mono text-[0.6875rem] tabular-nums text-accent">04</span>
+                Solution
+              </h2>
               <ul className="mt-5 space-y-4">
                 {caseStudy.solution.map((item) => (
                   <li key={item} className="flex gap-3 text-base leading-7 text-muted">
@@ -155,12 +170,18 @@ export function CaseStudyView({ slug }: { slug: string }) {
             </section>
 
             <section id="architecture">
-              <h2 className="label text-subtle">05 — Architecture</h2>
+              <h2 className="border-t border-line pt-4 text-[1.15rem] font-normal tracking-tight text-ink">
+                <span className="mr-3 font-mono text-[0.6875rem] tabular-nums text-accent">05</span>
+                Architecture
+              </h2>
               <ArchitectureDiagram architecture={caseStudy.architecture} />
             </section>
 
             <section id="challenges">
-              <h2 className="label text-subtle">06 — Technical challenges</h2>
+              <h2 className="border-t border-line pt-4 text-[1.15rem] font-normal tracking-tight text-ink">
+                <span className="mr-3 font-mono text-[0.6875rem] tabular-nums text-accent">06</span>
+                Technical challenges
+              </h2>
               <dl className="mt-6 space-y-7">
                 {caseStudy.challenges.map((challenge) => (
                   <div key={challenge.title} className="border-t border-line pt-5">
@@ -172,7 +193,10 @@ export function CaseStudyView({ slug }: { slug: string }) {
             </section>
 
             <section id="decisions">
-              <h2 className="label text-subtle">07 — Engineering decisions</h2>
+              <h2 className="border-t border-line pt-4 text-[1.15rem] font-normal tracking-tight text-ink">
+                <span className="mr-3 font-mono text-[0.6875rem] tabular-nums text-accent">07</span>
+                Engineering decisions
+              </h2>
               <dl className="mt-6 space-y-7">
                 {caseStudy.decisions.map((item) => (
                   <div key={item.decision} className="border-t border-line pt-5">
@@ -184,7 +208,10 @@ export function CaseStudyView({ slug }: { slug: string }) {
             </section>
 
             <section id="outcome">
-              <h2 className="label text-subtle">08 — Outcome</h2>
+              <h2 className="border-t border-line pt-4 text-[1.15rem] font-normal tracking-tight text-ink">
+                <span className="mr-3 font-mono text-[0.6875rem] tabular-nums text-accent">08</span>
+                Outcome
+              </h2>
               <ul className="mt-5 space-y-4">
                 {caseStudy.outcome.map((item) => (
                   <li key={item} className="flex gap-3 text-base leading-7 text-muted">
@@ -203,12 +230,18 @@ export function CaseStudyView({ slug }: { slug: string }) {
             </section>
 
             <section id="stack">
-              <h2 className="label text-subtle">09 — Technology stack</h2>
+              <h2 className="border-t border-line pt-4 text-[1.15rem] font-normal tracking-tight text-ink">
+                <span className="mr-3 font-mono text-[0.6875rem] tabular-nums text-accent">09</span>
+                Technology stack
+              </h2>
               <TechList items={caseStudy.stack} className="mt-5" />
             </section>
 
             <section id="links">
-              <h2 className="label text-subtle">10 — Links</h2>
+              <h2 className="border-t border-line pt-4 text-[1.15rem] font-normal tracking-tight text-ink">
+                <span className="mr-3 font-mono text-[0.6875rem] tabular-nums text-accent">10</span>
+                Links
+              </h2>
               {caseStudy.links.length > 0 ? (
                 <ul className="mt-5 space-y-3">
                   {caseStudy.links.map((link) => (

@@ -1,40 +1,38 @@
 import type { Metadata } from "next";
 
-import { ProjectCard } from "@/components/project-card";
-import { Section } from "@/components/section";
-import { SectionHeading } from "@/components/section-heading";
+import { WorkEntry } from "@/components/work-entry";
 import { projects } from "@/data/projects";
 
 export const metadata: Metadata = {
   title: "Projects",
   description:
-    "Engineering case studies covering cooperative commerce, ride-hailing workflows, public platforms, payment and delivery integrations, and a point-of-sale foundation.",
+    "Selected engineering work: cooperative commerce and ride-hailing platforms, a public site with a media pipeline, a point-of-sale foundation, and a real-time exchange dashboard.",
   alternates: { canonical: "/projects" },
 };
+
+const container = "mx-auto w-full max-w-5xl px-5 sm:px-8";
 
 export default function ProjectsPage() {
   return (
     <>
-      <Section bordered={false} className="pb-4 pt-16 sm:pt-20">
-        <SectionHeading
-          as="h1"
-          eyebrow="Case studies"
-          title="Projects and the decisions behind them."
-          description="Each case study documents the problem, the role, the implementation decisions, and the verified outcome. Where a project is a client engagement, the description stays at capability level: no source code, production data, credentials, or confidential infrastructure."
-        />
-      </Section>
+      <section className={`${container} pb-10 pt-14 sm:pt-20`}>
+        <h1 className="max-w-3xl text-[2.05rem] font-normal leading-[1.16] tracking-tight text-ink sm:text-[2.5rem] sm:leading-[1.12]">
+          Five projects, and the parts worth explaining.
+        </h1>
+        <p className="mt-6 max-w-2xl text-[0.9375rem] leading-7 text-muted">
+          Each page covers the problem, what I actually did, the decisions I would defend in a code
+          review, and what came out of it. Client engagements are described at capability level: no
+          source code, production data, credentials, or internal infrastructure.
+        </p>
+      </section>
 
-      <Section bordered={false} className="pt-8">
+      <section className={`${container} pb-16 sm:pb-20`}>
         <div>
-          {projects.map((project, index) => (
-            <ProjectCard
-              key={project.slug}
-              project={project}
-              index={String(index + 1).padStart(2, "0")}
-            />
+          {projects.map((project) => (
+            <WorkEntry key={project.slug} project={project} />
           ))}
         </div>
-      </Section>
+      </section>
     </>
   );
 }
